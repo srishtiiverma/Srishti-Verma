@@ -1,0 +1,267 @@
+#project{
+    background-color: whitesmoke;
+}
+#header{
+    padding: 25px 0;
+    border:1px solid black;
+    background-color:rgb(1, 1, 51);
+    text-align: center;
+}
+#header h1{
+    color:rgb(4, 195, 253);
+    font-size:3.4rem;
+    margin-top:5px ;
+    margin-bottom: 3px;
+    /* font-family:Verdana, Geneva, Tahoma, sans-serif ; */
+}
+#header p{
+    color:white;
+   font-size:1.8rem;
+   padding:5px 0 0 0;
+}
+#header a{
+    
+    border: 1px transparent;
+    border-radius:20px;
+    background-color:rgb(39, 39, 39);
+    overflow:hidden;
+    font-size:1.3rem;
+    padding:10px 40px;
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    margin: 0 10px;
+    
+}
+#header a:hover{
+background-color: rgb(3, 182, 236) ;
+ box-shadow:0 0 150px skyblue;
+ 
+}
+
+
+#about{
+    padding:40px 50px;
+    /* margin-top:40px; */
+    margin:45px 225px;
+    border:1px transparent;
+    border-radius: 16px;
+    background-color: white;
+}
+#about h2{
+    font-size: 1.8rem;
+    font-weight: 400px;
+    margin-top: 1px;
+    padding:0px 10px;
+    border-left:4px solid rgb(2, 182, 253);
+}
+#about figure img{
+    margin-left: 245px;
+    text-align: center;
+    border-radius: 50%;
+    border:3px solid rgb(2, 178, 248);
+  
+}
+#about figure img:hover{
+    transform: scale(1.05);
+    transform-duration:2s;
+}
+#about figcaption{
+    text-align: center;
+    font-size: 1.0rem;
+    color:gray;
+}
+#about p{
+    background-color: whitesmoke;
+    padding: 15px 10px;
+    font-size: 1.3rem;
+    border-radius:8px;
+    border:1px gray;
+}
+#skills{
+    text-align: center;
+   padding:40px 20px;
+    margin-top:40px;
+    margin:45px 225px;
+    border: 1px transparent;
+    border-radius: 16px;
+    background-color: white; 
+}
+#skills h2{
+    font-size: 1.8rem;
+    font-weight: 400px;
+    margin-top: 1px;
+    padding:0px 10px;
+    border-left:4px solid rgb(2, 182, 253);
+    text-align: left;
+}
+#skills div  {
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px;
+
+}
+#skills  div section:hover{
+     transform:translateY(-10px);
+}
+ 
+#skills div section{
+    padding-left:30px ;
+    padding-right: 30px;
+    width:350px;
+    border:1px  gray;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    text-align: left;
+    height: 165px;
+}
+#skills div section h3{
+    font-size: 1.4rem;
+    /* letter-spacing: 0.05rem; */
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#skills div section p{
+    font-size: 1.1rem;
+    color:gray ;
+}
+#skills div section a{
+    padding:10px 10px;
+    background-color: rgb(3, 156, 228);
+    border:1px transparent;
+    border-radius: 6px;
+    color:white;
+    text-decoration: none;
+    font-size: 1.1rem;
+
+}
+#skill{
+    margin:30px 5px;
+    border:1px  gray;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    /* text-align: left; */
+    
+}
+
+
+#skill h3{
+    font-size: 1.3rem;
+    margin-left: 10px;
+    /* font-weight: 200rem; */
+}
+#skill p{
+    padding:10px 10px;
+    margin-top: 60px;
+    display: flex;
+    text-align: left;
+    font-size: 1.1rem;
+    border:1px blue;
+    text-transform: uppercase;
+    background-color:skyblue;
+    /* border:1px transparent; */
+    border-radius: 14px;
+    color:blue;
+}
+#contact{
+   
+    border:1px solid black;
+    background-color:rgb(1, 1, 51);
+    height:590px;
+     padding:40px 50px;
+    /* margin-top:40px; */
+    margin:45px 225px;
+    border:1px transparent;
+    border-radius: 16px;
+    
+}
+#contact h2{
+    font-size: 1.8rem;
+    font-weight: 400px;
+    margin-top: 1px;
+    padding:10px 30px;
+    border-left:4px solid rgb(2, 182, 253);
+    color:white;
+}
+#contact p{
+    color:white;
+    font-size: 1.2rem;
+}
+#label{
+    color :white;
+    font-size:1.15rem;
+}
+#contact textarea{
+    background-color:rgb(34, 34, 41);
+    border:1px solid rgb(70, 69, 69);
+    border-radius: 10px;
+}
+#contact button{
+    height:40px;
+    width:100px;
+    background-color: rgb(2, 182, 253);
+    text-align: left;
+    border-radius: 8px;
+    color:white;
+    font-weight:800px;
+    border:1px rgb(2, 182, 253); 
+    font-size:0.8rem;
+}
+#foot{
+    margin:20px 10px;
+    display:flex;
+    border-top:1px solid rgb(46, 45, 45);
+    gap:300px;
+}
+#foot a{
+    color:rgb(2, 182, 253);
+    text-decoration: none;
+}
+#contact p a{
+     color:rgb(2, 182, 253);
+    text-decoration: none;
+
+}
+#foot a:hover{
+    text-decoration: underline;
+}
+#contact p a:hover{
+    text-decoration: underline;
+}
+#contact button:hover{
+    background-color:rgb(1, 134, 187); 
+}
+#label textarea{
+    color:white;
+    font-size:0.8rem;
+}
+#videos{
+    
+  
+    background-color: white;
+    height:550px;
+     padding:40px 50px;
+    /* margin-top:40px; */
+    margin:45px 225px;
+    border:1px transparent;
+    border-radius: 16px;
+   
+}
+#videos video{
+    height: 500px ;
+    width :380px;
+    margin-bottom: 70px;
+    margin-left: 210px;
+  
+}
+#videos h2{
+    font-size: 1.8rem;
+    font-weight: 400px;
+    margin-top: 1px;
+    padding:0px 5px;
+    border-left:4px solid rgb(2, 182, 253);
+    
+  
+}
+
+
+
